@@ -12,8 +12,7 @@
       padding: 0;
     }
     .warp {
-      width: calc(100% - 2px);
-      border: 1px solid gainsboro;
+      width:100% ;
       padding-bottom:6px;
     }
     .warp div {
@@ -57,18 +56,18 @@
     }
   </style>
   <body>
-    <div class="warp">
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-    </div>
+
     <div class='content'>
      <div class='left'>
         left  <br>width=200px
      </div>
      <div class='right'>
-        right  <br>100%-200px
+        <div class="warp">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
      </div>
     </div>
   </body>
